@@ -24,19 +24,24 @@ header{
 #headertext{
   width: 80%;
   text-align: right;
-  margin: 30px 0;
+  margin: 30px 0 20px 0;
 }
 
 header{
-  border-bottom: 2px solid #7d97ad;
+  border-bottom: 5px solid #7d97ad;
 }
 
+#headertext h1{
+  font-family: 'Abel', sans-serif;
+  font-size: 4em;
+}
 #headertext p{
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 #image {
-height: 600px;  background-image:url("http://via.placeholder.com/960x500")
+height: 600px;  background-image:url("http://via.placeholder.com/960x500");
+margin: 20px 0;
 }
 
 #featuredWork{
@@ -45,8 +50,20 @@ height: 600px;  background-image:url("http://via.placeholder.com/960x500")
 
 .apps-common{
   width: 33%;
+  text-align: center;
 }
 
 #app2{
   margin: 0 10px;
+}
+
+.sectiontitle {
+  font-size: 2em;
+  color: #7d97ad;
+}
+
+.appTitle{
+  font-size: 3em;
+  color: #2d3c49;
+  margin: 10px 0;
 }
