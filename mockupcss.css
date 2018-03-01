@@ -111,3 +111,72 @@ img{
     margin: 10px 0;
   }
 }
+
+/* 3rd Breakpoint */
+@media screen and (min-width: 961px) {
+
+  body{
+    width: 80%;
+    margin: auto;
+  }
+
+  header{
+    display: flex;
+  }
+
+  #logo{
+    width: 20%;
+    min-width: 350px;
+    margin: auto 0px;
+  }
+
+  #headertext{
+    width: 80%;
+    text-align: right;
+    margin: auto 0px;
+  }
+
+  header{
+    border-bottom: 5px solid #7d97ad;
+  }
+
+  #headertext h1{
+    font-family: 'Abel', sans-serif;
+    font-size: 4em;
+  }
+  #headertext p{
+    padding-top: 10px;
+    font-size: 1.5em;
+  }
+
+  #image {
+  height: 600px;  background-image:url("http://via.placeholder.com/960x500");
+  margin: 20px 0;
+  }
+
+  #featuredWork{
+    display: flex;
+    margin: 0 10px;
+  }
+
+  .apps-common{
+    width: 33%;
+    text-align: center;
+  }
+
+  #app2{
+    margin: 0 10px;
+  }
+
+  .sectiontitle {
+    font-size: 2.5em;
+    color: #7d97ad;
+    margin-left: 10px;
+  }
+
+  .appTitle{
+    font-size: 3em;
+    color: #2d3c49;
+    margin: 10px 0;
+  }
+}
