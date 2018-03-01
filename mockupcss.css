@@ -1,182 +1,181 @@
 
 
 p,h1,img,body{
-  margin: 0;
+	margin: 0;
 }
 
 img{
-  width: 100%;
+	width: 100%;
 }
 
 
 
 @media screen and (max-width:700px) {
 
-  body, main{
-    width: 100%;    /* setting width to fill page */
-  }
+	body, main{
+		width: 100%;		/* setting width to fill page */
+	}
 
-  #logo{
-    min-width: 150px; /* Ensure logo size doesn't shrink */
-    margin: auto 0; /* Centering logo in the container */
-  }
+	#logo{
+		min-width: 150px; /* Ensure logo size doesn't shrink */
+		margin: auto 0; /* Centering logo in the container */
+	}
 
-  #headertext{
-    text-align: none;
-    margin: 20px;
-  } /* setting margins */
+	#headertext{
+		margin: 20px;
+	} /* setting margins */
 
-  #headertext h1{
-    font-size: 2em;
-  } /* reducing size to fit name in one line */
+	#headertext h1{
+		font-size: 2em;
+	} /* reducing size to fit name in one line */
 
-  .sectiontitle{
-    margin-left: 10px;
-  } /* Aligning with images */
+	.sectiontitle{
+		margin-left: 10px;
+	} /* Aligning with images */
 
-  #featuredWork{
-    margin: 0 10px;
-  } /* Setting margin around set of images */
+	#featuredwork{
+		margin: 0 10px;
+	} /* Setting margin around set of images */
 
-  .appTitle{
-    font-size: 2em;
-  } /* reducing font sixe for smaller screens */
+	.apptitle{
+		font-size: 2em;
+	} /* reducing font sixe for smaller screens */
 
 }
 
 /* 2nd breakpoint */
 @media screen and (min-width: 701px) and (max-width: 960px) {
-  body{
-    width: 100%;
-    margin: auto;
-  }
+	body{
+		width: 100%;
+		margin: auto;
+	}
 
-  header{
-    display: flex;
-  }
+	header{
+		display: flex;
+	}
 
-  #logo{
-    width: 20%;
-    min-width: 300px;
-    margin: auto 0px;
-  }
+	#logo{
+		width: 20%;
+		min-width: 300px;
+		margin: auto 0px;
+	}
 
-  #headertext{
-    width: 80%;
-    text-align: right;
-    margin: auto 20px;
-  }
+	#headertext{
+		width: 80%;
+		text-align: right;
+		margin: auto 20px;
+	}
 
-  header{
-    border-bottom: 5px solid #7d97ad;
-  }
+	header{
+		border-bottom: 5px solid #7d97ad;
+	}
 
-  #headertext h1{
-    font-family: 'Abel', sans-serif;
-    font-size: 4em;
-  }
-  #headertext p{
-    padding-top: 10px;
-    font-size: 1.5em;
-  }
+	#headertext h1{
+		font-family: 'Abel', sans-serif;
+		font-size: 4em;
+	}
+	#headertext p{
+		padding-top: 10px;
+		font-size: 1.5em;
+	}
 
-  #image {
-  height: 600px;  background-image:url("http://via.placeholder.com/960x500");
-  margin: 20px 0;
-  }
+	#image {
+	height: 600px;	background-image:url("http://via.placeholder.com/960x500");
+	margin: 20px 0;
+	}
 
-  #featuredWork{
-    display: flex;
-    margin: 0 10px;
-  }
+	#featuredWork{
+		display: flex;
+		margin: 0 10px;
+	}
 
-  .apps-common{
-    width: 33%;
-    text-align: center;
-  }
+	.apps-common{
+		width: 33%;
+		text-align: center;
+	}
 
-  #app2{
-    margin: 0 10px;
-  }
+	#app2{
+		margin: 0 10px;
+	}
 
-  .sectiontitle {
-    font-size: 2.5em;
-    color: #7d97ad;
-    margin-left: 10px;
-  }
+	.sectiontitle {
+		font-size: 2.5em;
+		color: #7d97ad;
+		margin-left: 10px;
+	}
 
-  .appTitle{
-    font-size: 3em;
-    color: #2d3c49;
-    margin: 10px 0;
-  }
+	.appTitle{
+		font-size: 3em;
+		color: #2d3c49;
+		margin: 10px 0;
+	}
 }
 
 /* 3rd Breakpoint */
 @media screen and (min-width: 961px) {
 
-  body{
-    width: 80%;
-    margin: auto;
-  }
+	body{
+		width: 80%;
+		margin: auto;
+	}
 
-  header{
-    display: flex;
-  }
+	header{
+		display: flex;
+	}
 
-  #logo{
-    width: 20%;
-    min-width: 350px;
-    margin: auto 0px;
-  }
+	#logo{
+		width: 20%;
+		min-width: 350px;
+		margin: auto 0px;
+	}
 
-  #headertext{
-    width: 80%;
-    text-align: right;
-    margin: auto 0px;
-  }
+	#headertext{
+		width: 80%;
+		text-align: right;
+		margin: auto 0px;
+	}
 
-  header{
-    border-bottom: 5px solid #7d97ad;
-  }
+	header{
+		border-bottom: 5px solid #7d97ad;
+	}
 
-  #headertext h1{
-    font-family: 'Abel', sans-serif;
-    font-size: 4em;
-  }
-  #headertext p{
-    padding-top: 10px;
-    font-size: 1.5em;
-  }
+	#headertext h1{
+		font-family: 'Abel', sans-serif;
+		font-size: 4em;
+	}
+	#headertext p{
+		padding-top: 10px;
+		font-size: 1.5em;
+	}
 
-  #image {
-  height: 600px;  background-image:url("http://via.placeholder.com/960x500");
-  margin: 20px 0;
-  }
+	#image {
+	height: 600px;	background-image:url("http://via.placeholder.com/960x500");
+	margin: 20px 0;
+	}
 
-  #featuredWork{
-    display: flex;
-    margin: 0 10px;
-  }
+	#featuredWork{
+		display: flex;
+		margin: 0 10px;
+	}
 
-  .apps-common{
-    width: 33%;
-    text-align: center;
-  }
+	.apps-common{
+		width: 33%;
+		text-align: center;
+	}
 
-  #app2{
-    margin: 0 10px;
-  }
+	#app2{
+		margin: 0 10px;
+	}
 
-  .sectiontitle {
-    font-size: 2.5em;
-    color: #7d97ad;
-    margin-left: 10px;
-  }
+	.sectiontitle {
+		font-size: 2.5em;
+		color: #7d97ad;
+		margin-left: 10px;
+	}
 
-  .appTitle{
-    font-size: 3em;
-    color: #2d3c49;
-    margin: 10px 0;
-  }
+	.appTitle{
+		font-size: 3em;
+		color: #2d3c49;
+		margin: 10px 0;
+	}
 }
