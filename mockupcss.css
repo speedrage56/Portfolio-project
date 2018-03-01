@@ -1,3 +1,5 @@
+
+
 p,h1,img{
   margin: 0;
 }
@@ -66,4 +68,30 @@ margin: 20px 0;
   font-size: 3em;
   color: #2d3c49;
   margin: 10px 0;
+}
+
+@media screen and (max-width:700px) {
+
+  body, main{
+    width: 100%;    /* setting width to fill page */
+  }
+
+  #logo{
+    min-width: 150px; /* Ensure logo size doesn't shrink */
+    margin: auto 0; /* Centering logo in the container */
+  }
+
+  #headertext{
+    text-align: none;
+    margin: 20px;
+  }
+
+  #headertext h1{
+    font-size: 2em;
+  }
+
+  .appTitle{
+    font-size: 2em;
+  }
+
 }
